@@ -7,11 +7,10 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int i = 0;
 
-        for (i = a; i <= b; i++) {
-            if (i % 5 == 0 && i % 10 != 0) {
-                System.out.print(i + " ");
+        for (a +=1 ;a < b; a++) {
+            if (a % 5 == 0 && a % 10 != 0) {
+                System.out.print(a + " ");
             }
         }
     }
