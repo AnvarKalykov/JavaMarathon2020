@@ -6,16 +6,13 @@ public class Motorbike {
     private String colour;
     private String model;
 
-    public Motorbike(int yearOfIssue){
+    public Motorbike(int yearOfIssue, String colour, String model){
         this.yearOfIssue = yearOfIssue;
-        System.out.println("Год выпуска " + yearOfIssue);
-    }
-    public Motorbike(String colour, String model){
         this.colour = colour;
         this.model = model;
-        System.out.println(colour + " " + model);
-
+        System.out.println("Год выпуска " + yearOfIssue + ". Цвет " + colour + ". Модель " + model);
     }
+
 
 
 }
